@@ -11,7 +11,7 @@
     <script type="text/javascript" src="./script.js">
 </script>
 	<h1 style="text-align:center;">Signup Form Car</h1>
-	<select id="#cars">
+	<select id="cars">
 		<option>car 1</option>
 		<option>car 2</option>
 		<option>car 3</option>
@@ -23,8 +23,8 @@
 	<label for="email">Email</label><br>
 	<input type="email" required="yes" id="email" placeholder="Email"><br>
 	<label for="gender">Gender</label><br>
-	<label for="gender_m"><input type="radio" required="yes" id="gender_m" name="gender">Male</label>
-	<label for="gender_f"><input type="radio" required="yes" id="gender_f" name="gender">Female</label><br>
+	<label for="gender_m"><input type="radio" required="required" id="gender_m" name="gender">Male</label>
+	<label for="gender_f"><input type="radio" required="required" id="gender_f" name="gender">Female</label><br>
 	<label for="age">Age</label><br>
 	<input type="number" required="yes" id="age" placeholder="Age"><br>
 	<label for="dob">Date Of Birth</label><br>
@@ -35,6 +35,7 @@
 	<input type="password" required="yes" id="password" placeholder="Password"><br>
 	<label for="tos">I agree to the TOS</label>
 	<input type="checkbox" required="yes" id="tos">
+	<button type="submit">Submit</button>
 </form>
 </body>
 
